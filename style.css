@@ -4,7 +4,10 @@
       padding: 0;
       font-family: "Ubuntu", sans-serif;
 }
-
+.white{
+      color: white;
+      text-decoration: none;
+}
 .spekers-page {
       width: 100%;
       height: calc(100vh - 100px);
