@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETA</title>
+  </head>
+  <body>
+    <div class="nav-fixed">
+      <img src="./img/Summit_logo.png" alt=""  style="width: 130px;"/>
+      <img src="./img/menu.png" alt="" class="menu-toggel">
+      <div class="content">
+          <nav>
+              <ul>
+                <img src="./img/Summit_logo.png" alt="" style="display: block;margin-right: 19px;">
+                <li class="Nosotros-link">
+                  <a href="#">Nosotros</a>
+                </li>
+                <li class="Speakers-link">
+                  <a href="#">Speakers</a>
+                </li>
+                <li class="Agenda-link">
+                  <a href="#">Agenda</a>
+                </li>
+                <li class="Entradas-link">
+                  <a href="#">Entradas</a>
+                </li>
+                <li class="Sponsors-link">
+                  <a href="#">Sponsors</a>
+                </li>
+              </ul>
+              <button>Comprar Entradas</button>
+            </nav>
+      </div>
+    </div>
+    <div class="nav-later close-nav">
+      <div  class="nav-item">
+        <button style="float: right;background: none;border: none;width: 35px;cursor: pointer;">
+          <img src="./img/x.png" alt="" style="width: 100%;">
+        </button>
+        <nav style="width: 80%;margin: auto;">
+            <ul style="list-style: none;margin-top: 38px;">
+              <li class="Nosotros-link">
+                <a href="#">Nosotros</a>
+              </li>
+              <li class="Speakers-link">
+                <a href="#">Speakers</a>
+              </li>
+              <li class="Agenda-link">
+                <a href="#">Agenda</a>
+              </li>
+              <li class="Entradas-link">
+                <a href="#">Entradas</a>
+              </li>
+              <li class="Sponsors-link">
+                <a href="#">Sponsors</a>
+              </li>
+            </ul>
+            <button>Comprar Entradas</button>
+          </nav>
+         <div class="row-circle" style="display: flex;width: 100%;justify-content: space-around;margin-top: 27px;">
+            <a href="#" class="icon-footer" style="color:white;">
+          <div class="circle-redes-footer">
+              <i class="fab fa-facebook-f"></i>
+          </div>
+        </a>
+        <a href="#" class="icon-footer" style="color:white;">
+        <div class="circle-redes-footer">
+            
+              <i class="fab fa-instagram"></i>
+            
+          </div>
+        </a>
+        <a href="#"  class="icon-footer" style="color:white;">
+          <div class="circle-redes-footer">
+           
+                <i class="fab fa-youtube"></i> 
+                        
+          </div>
+        </a>  
+        </div>
+      </div>
+    </div>
+
+    <div style="overflow: hidden; width: 100%;height: 100vh;position: relative;">
+      <video autoplay="" loop="" muted="" playsinline="" data-wf-ignore="true" style="width: auto;height: auto;min-width: 100%;min-height: 100%;z-index: 0;margin: auto;position: absolute;right: -100%;bottom: -100%;top: -100%;left: -100%;">
+          <source src="./img/movie.mp4" type="">
+        </video>
+    </div>
+    <header >
+      
+      <div class="content">
+        <nav>
+          <ul>
+            <li class="Nosotros-link">
+              <a href="#">Nosotros</a>
+            </li>
+            <li class="Speakers-link">
+              <a href="#">Speakers</a>
+            </li>
+            <li class="Agenda-link">
+              <a href="#">Agenda</a>
+            </li>
+            <li class="Entradas-link">
+              <a href="#">Entradas</a>
+            </li>
+            <li class="Sponsors-link">
+              <a href="#">Sponsors</a>
+            </li>
+          </ul>
+          <button>Comprar Entradas</button>
+        </nav>
+        <div class="background-particulas">
+          <div class="title-contador" >
+            <img src="./img/summit.png" alt=""  class="animated bounceInDown "/>
+            <h1 class="animated bounceInUp ">Transformación Digital</h1>
+            <div class="contador animated bounceInUp">
+              <div class="day restant">
+                <h5>85</h5>
+                <h6>Dias</h6>
+              </div>
+              <p>:</p>
+              <div class="hour restant">
+                <h5>04</h5>
+                <h6>Horas</h6>
+              </div>
+              <p>:</p>
+              <div class="minuts restant">
+                <h5>29</h5>
+                <h6>Minutos</h6>
+              </div>
+              <p>:</p>
+              <div class="segunts restant">
+                <h5>55</h5>
+                <h6>Segundos</h6>
+              </div>
+            </div>
+          </div>
+          <div class="mouse animated bounceInUp">
+          <div style="width: 21px;margin:auto;">
+            <svg class="scroll-call-to-action" viewBox="0 0 24 44" xmlns="http://www.w3.org/2000/svg" style="fill: #fff;">
+              <path class="scroll-call-to-action__border" d="M11.9999 43.1345C5.38295 43.1345 0 37.7515 0 31.1344V12.9726C0 6.35565 5.38295 0.972595 11.9999 0.972595C18.6168 0.972595 24 6.35555 24 12.9726V31.1344C24 37.7515 18.6168 43.1345 11.9999 43.1345ZM11.9999 2.26992C6.09843 2.26992 1.29722 7.07113 1.29722 12.9726V31.1344C1.29722 37.0362 6.09843 41.8372 11.9999 41.8372C17.9012 41.8372 22.7027 37.0363 22.7027 31.1344V12.9726C22.7027 7.07113 17.9012 2.26992 11.9999 2.26992Z"></path>
+              <path class="scroll-call-to-action__scroll-wheel" d="M13.2977 13.2168C13.2977 13.9333 12.7167 14.5141 12.0003 14.5141C11.2839 14.5141 10.7031 13.9333 10.7031 13.2168V11.9195C10.7031 11.203 11.284 10.6223 12.0003 10.6223C12.7167 10.6223 13.2977 11.2031 13.2977 11.9195V13.2168Z"></path>
+              </svg>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </header>
+    <div class="nosotros animated bounceInRight wow ">
+      <h3>Nosotros</h3>
+      <div class="text-nosotros">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
+    </div>
+    <div class="Speakers wow animated bounceInRight">
+      <h3>Speakers</h3>
+      <div class="slide">
+        <div class="box">
+          <div class="center">
+            <img src="img/spekers/Diego perez.png" alt="" />
+            <div class="circle-icons">
+              <div class="icons-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+            <img src="./img/banderas/Recurso 40@2x.png" alt="" style="width: 40px !important;margin-top: -35px;z-index: 99999999999999999999;">
+            <h3>Diego Perez</h3>
+            <p class="job">Regional Lean Agile Transformación Lead</p>
+            <div class="icons-redes-responsive">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="center">
+            <img src="img/spekers/Olivier-Gesbert.png" alt="" />
+            <div class="circle-icons">
+              <div class="icons-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+            <img src="./img/banderas/MEXICO@2x.png" alt="" style="width: 40px !important;margin-top: -35px;z-index: 99999999999999999999;">
+            <h3>Olivier Gesbert</h3>
+            <p class="job">Ceo & Coach PCC</p>
+            <div class="icons-redes-responsive">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="center">
+            <img src="img/spekers/johnny-ordo.png" alt="" />
+            <div class="circle-icons">
+              <div class="icons-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+            <img src="./img/banderas/Recurso 38@2x.png" alt="" style="width: 40px !important;margin-top: -35px;z-index: 99999999999999999999;">
+            <h3>Johnny Ordoñez</h3>
+            <p class="job">Agility Transformación Lead & Advisor for Telefonica</p>
+            <div class="icons-redes-responsive">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="center">
+            <img src="img/spekers/Alfredo fuentes.png" alt="" />
+            <div class="circle-icons">
+              <div class="icons-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+            <img src="./img/banderas/MEXICO@2x.png" alt="" style="width: 40px !important;margin-top: -35px;z-index: 99999999999999999999;">
+            <h3>Alfredo fuentes</h3>
+            <p class="job">CTO Chief Technology Officer</p>
+            <div class="icons-redes-responsive">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="center">
+            <img src="img/spekers/carla-oliveiri.png" alt="" />
+            <div class="circle-icons">
+              <div class="icons-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+            <img src="./img/banderas/MEXICO@2x.png" alt="" style="width: 40px !important;margin-top: -35px;z-index: 99999999999999999999;">
+            <h3>Carla Olivieri</h3>
+            <p class="job">Rectora & CEO</p>
+            <div class="icons-redes-responsive">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="center">
+            <img src="img/spekers/Sergio-Nouvel.png" alt="" />
+            <div class="circle-icons">
+              <div class="icons-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+            <img src="./img/banderas/CHILE@2x.png" alt="" style="width: 40px !important;margin-top: -35px;z-index: 99999999999999999999;">
+            <h3>Sergio Nouvel</h3>
+            <p class="job">Co-Founder & CEO</p>
+            <div class="icons-redes-responsive">
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+      <a href="./speakers.html" style="text-decoration:none;">
+          <div class="button-spekers">
+              <p>Ver más</p>
+            </div>
+      </a>
+    </div>
+
+    <div class="background-two">
+      <div class="agenda-containter">
+        <div class="agenda wow animated bounceInLeft">
+          <div class="agenda-total">
+            <h3>Agenda</h3>
+            <div class="table-button table-button1">
+              <div class="table" style="display: flex;">
+                <div class="colum" style="    height: calc(100% - 52px);">
+                  <div class="cabesera">
+                    <h5>Día 1</h5>
+                  </div>
+                  <div class="date-table">
+                    <p style="  width: 80px;">
+                      28 Nov
+                    </p>
+                  </div>
+                </div>
+                <table>
+                  <tr class="tr-header">
+                    <th>Hora</th>
+                    <th>Actividad</th>
+                    <th style="border-radius: 0px 9px 9px 0px;">Speaker</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button class="button-agenda button-agenda1">
+                <p class="mas">+</p>
+                <p class="menos close">-</p>
+              </button>
+            </div>
+
+            <div class="table-button table-button2 close">
+              <div class="table" style="display: flex;">
+                <div class="colum" style="    height: calc(100% - 52px);">
+                  <div class="cabesera">
+                    <h5>Día 2</h5>
+                  </div>
+                  <div class="date-table">
+                    <p style="  width: 80px;">
+                      28 Nov
+                    </p>
+                  </div>
+                </div>
+                <table>
+                  <tr class="tr-header">
+                    <th>Hora</th>
+                    <th>Actividad</th>
+                    <th style="border-radius: 0px 9px 9px 0px;">Speaker</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 am</td>
+                      <td>¿Qué es transformación digital?</td>
+                      <td>Lesli Caballero</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button class="button-agenda button-agenda2">
+                <p class="mas mas2 close">+</p>
+                <p class="menos menos2">-</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entradas-containter ">
+        <div class="center-container wow animated bounceInRight">
+          <h3 style="margin-bottom: 57px">Entradas</h3>
+          <div class="conjunto">
+              <div class="item-preci extra activity" >
+                  <h5>02 SEP - 8pm</h5>
+                  <div class="box ">
+                    <h2>S/ 400</h2>
+                    <p>Entrada <span>YOUNG</span></p>
+                  </div>
+              </div>
+              <div class="row-preci">
+                  <div class="item-preci">
+                    <h5>06 AGO - 8pm</h5>
+                    <div class="box">
+                      <h2>S/ 150</h2>
+                      <p>Entrada <span>BETA</span></p>
+                    </div>
+                  </div>
+                  <div class="item-preci">
+                    <h5>16 AGO - 4pm</h5>
+                    <div class="box">
+                      <h2>S/ 250</h2>
+                      <p>Entrada <span>MVP</span></p>
+                    </div>
+                  </div>
+                  <div class="item-preci activity">
+                    <h5>02 SEP - 8pm</h5>
+                    <div class="box ">
+                      <h2>S/ 400</h2>
+                      <p>Entrada <span>BETA</span></p>
+                    </div>
+                  </div>
+                  <div class="item-preci">
+                    <h5>16 SEP - 1pm</h5>
+                    <div class="box">
+                      <h2>S/ 600</h2>
+                      <p>Entrada <span>MATURE</span></p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <a href="#" class="shop-pass">Comprar entradas</a>
+        </div>
+      </div>
+
+      
+    </div>
+    <div class="sponsors animated bounceInLeft wow ">
+      <h3>
+        Sponsors
+      </h3>
+
+      <div class="row-sponsor">
+        <h4>Oro</h4>
+        <div class="row-logos">
+          <img src="./img/getonboard.png" alt="" />
+          <img src="./img/wework.png" alt="" />
+        </div>
+      </div>
+      <div class="row-sponsor">
+        <h4>Plata</h4>
+        <div class="row-logos">
+          <img src="./img/Recurso_12.png" alt="" />
+          <img src="./img/Recurso_12.png" alt="" />
+          <img src="./img/Recurso_12.png" alt="" />
+          <img src="./img/Recurso_12.png" alt="" />
+        </div>
+      </div>
+      <div class="row-sponsor">
+        <h4>Bronce</h4>
+        <div class="row-logos">
+          <img src="./img/Recurso_12.png" alt="" />
+          <img src="./img/Recurso_12.png" alt="" />
+          <img src="./img/Recurso_12.png" alt="" />
+          <img src="./img/Recurso_12.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-center">
+        <img src="./img/logo_en_estado_beta.png" alt="">
+        <div class="row-circle">
+            <a href="#" class="icon-footer">
+          <div class="circle-redes-footer">
+              <i class="fab fa-facebook-f"></i>
+            
+          </div>
+        </a>
+        <a href="#" class="icon-footer" >
+          <div class="circle-redes-footer">
+            
+              <i class="fab fa-instagram"></i>
+            
+          </div>
+        </a>
+        <a href="#" class="icon-footer">
+          <div class="circle-redes-footer">
+            
+                <i class="fab fa-youtube"></i> 
+                         
+          </div>
+        </a> 
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+    // SLIDE
+    $(".slide").slick({
+      centerMode: true,
+      dots: true,
+      //   centerPadding: "60px",
+      slidesToShow: 5,
+      //   infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: false,
+      nextArrow: false,
+      variableWidth: true,
+      easing: "easeOutElastic",
+      //   cssEase: "linear",
+      speed: 1500,
+      responsive: [
+    {
+      breakpoint: 1100,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+    });
+
+    $(".slide .slick-slide .center").mouseenter(function() {
+      $(this).addClass("hover-slide");
+    });
+    $(".slide .slick-slide .center").mouseleave(function() {
+      $(this).removeClass("hover-slide");
+    });
+
+    $(".slide .slick-slide .center .icons-redes").mouseenter(function() {
+      $(this).addClass("hover-slide");
+    });
+    $(".slide .slick-slide .center .icons-redes").mouseleave(function() {
+      $(this).removeClass("hover-slide");
+    });
+
+
+    $('.nav-fixed .menu-toggel').click(function(){
+      $('.nav-later').removeClass('close-nav');
+    })
+
+    $('.nav-later .nav-item button').click(function(){
+      $('.nav-later').addClass('close-nav');
+    })
+
+    // AGENDA BOTONES MAS Y MENOS
+
+    $(".button-agenda1").click(function() {
+      $(".table-button1").toggleClass("close");
+      $(".table-button1 .mas").toggleClass("close");
+      $(".table-button1  .menos").toggleClass("close");
+
+      $(".table-button2").toggleClass("close");
+      $(".table-button2 .mas2").toggleClass("close");
+      $(".table-button2 .menos2").toggleClass("close");
+    });
+    $(".button-agenda2").click(function() {
+      $(".table-button2").toggleClass("close");
+      $(".table-button2 .mas2").toggleClass("close");
+      $(".table-button2 .menos2").toggleClass("close");
+
+      $(".table-button1").toggleClass("close");
+      $(".table-button1 .mas").toggleClass("close");
+      $(".table-button1  .menos").toggleClass("close");
+    });
+
+    // SCROLL ANIMADO-----------------------------------------------
+    var body = $("html, body");
+    $(".Nosotros-link").click(function() {
+      body.stop().animate({ scrollTop: $("header").height() - 100 }, 500, "swing", function() {});
+      console.log("dasdasdads", $("header").height());
+      $('.nav-later').addClass('close-nav');
+    });
+    $(".Speakers-link").click(function() {
+      body.stop().animate({ scrollTop: $("header").height() + $(".nosotros").height() - 100 }, 500, "swing", function() {});
+      console.log($("header").height() + $(".nosotros").height());
+      $('.nav-later').addClass('close-nav');
+    });
+    $(".Agenda-link").click(function() {
+      body.stop().animate({ scrollTop: $("header").height() + $(".nosotros").height() + $(".Speakers").height() - 100 }, 500, "swing", function() {});
+      console.log($("header").height() + $(".nosotros").height());
+      $('.nav-later').addClass('close-nav');
+    });
+    $(".Entradas-link").click(function() {
+      body.stop().animate({ scrollTop: $("header").height() + $(".nosotros").height() + $(".Speakers").height() + $(".agenda-containter").height() - 100 }, 500, "swing", function() {});
+      console.log($("header").height() + $(".nosotros").height());
+      $('.nav-later').addClass('close-nav');
+    });
+    $(".Sponsors-link").click(function() {
+      body.stop().animate({ scrollTop: $("header").height() + $(".nosotros").height() + $(".Speakers").height() + $(".agenda-containter").height() + $(".entradas-containter").height() - 100 }, 500, "swing", function() {});
+      console.log($("header").height() + $(".nosotros").height());
+      $('.nav-later').addClass('close-nav');
+    });
+
+    // CONTADOR FINAL DE FECHAS ------------------------------------------
+
+    var futuro = new Date(2019, 10, 28, 09, 00);
+    var actualiza = 1000;
+    function faltan() {
+      var ahora = new Date();
+      //   console.log(futuro);
+      var faltan = futuro - ahora;
+      // si todavís no es futuro
+      if (faltan > 0) {
+        var segundos = Math.round(faltan / 1000);
+        var minutos = Math.floor(segundos / 60);
+        var segundos_s = segundos % 60;
+        var horas = Math.floor(minutos / 60);
+        var minutos_s = minutos % 60;
+        var dias = Math.floor(horas / 24);
+        var horas_s = horas % 24;
+        // escribe los resultados
+        segundos_s < 10 ? (segundos_s = "0" + segundos_s) : (segundos_s = segundos_s);
+        minutos_s < 10 ? (minutos_s = "0" + minutos_s) : (minutos_s = minutos_s);
+        horas_s < 10 ? (horas_s = "0" + horas_s) : (horas_s = horas_s);
+        dias < 10 ? (dias = "0" + dias) : (dias = dias);
+        var resultado = dias + " dias : " + horas_s + " horas : " + minutos_s + " minutos : " + segundos_s + " segundos";
+        // document.formulario.reloj.value = resultado;
+        //actualiza el contador
+        $(".day").html("<h5>" + dias + "</h5><h6>Dias</h6>");
+        $(".hour").html("<h5>" + horas_s + "</h5><h6>Horas</h6>");
+        $(".minuts").html("<h5>" + minutos_s + "</h5><h6>Minutos</h6>");
+        $(".segunts").html("<h5>" + segundos_s + "</h5><h6>Segundos</h6>");
+
+        //  console.log(resultado);
+
+        setTimeout("faltan()", actualiza);
+      }
+      // estamos en el futuro
+      else {
+        document.formulario.reloj.value = "00 dias : 00 horas : 00 minutos : 00 segundos";
+      }
+    }
+    faltan();
+    // CONTADOR ------------------------------------------------FIN
+
+
+    // SCROLL GET POSITION
+
+
+    $(window).scroll(function (event) {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 100) {
+        $('.nav-fixed').addClass('show')
+      }else {
+        $('.nav-fixed').removeClass('show')
+      }
+      console.log(scroll)
+    });
+  </script>
+</html>
