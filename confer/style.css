@@ -596,8 +596,8 @@ input:required {
   z-index: 1;
   height: 46px;
   padding: 0 25px;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #2c1c61;
+  color: #2c1c61;
   border-radius: 23px;
   font-size: 14px;
   text-transform: uppercase;
@@ -693,16 +693,17 @@ input:required {
   margin-top:12%
 }
 .summit-image{
-  width: 50% !important; 
+  width: 40% !important; 
   margin-left: auto; 
   margin-right:auto;
+  margin-top: 50px;
 }
 .summit-txt{
   color: #ffffff;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 400;
   margin-bottom: 5px;
-  margin-top:12%
+  margin-top:8%
 }
 .classy-nav-container {
   background-color: transparent;
@@ -718,7 +719,7 @@ input:required {
         margin-top:35%
       }
       .summit-image{
-        width: 80%; 
+        width: 80% !important; 
         margin-left: auto; 
         margin-right:auto;
       }
@@ -801,7 +802,7 @@ input:required {
       height: 75px; }
 
       .contador {
-        width: 100%;
+        width: 70%;
         height: 20%;
         border-radius: 63px;
         border: 2px solid #594c82;
@@ -849,7 +850,8 @@ input:required {
     position: absolute;
     z-index: 999999;
     left: 50%;
-    bottom: 40px;
+    /* bottom: 40px; */
+    margin-top: 7%;
     margin-left: -13px;
     -webkit-box-shadow: inset 0 0 0 2px #ffffff;
     box-shadow: inset 0 0 0 2px #ffffff;
@@ -926,13 +928,14 @@ input:required {
     @media only screen and (max-width: 767px) {
       .contador {
         padding: 10px 20px 10px 20px;
-        margin-top: 20%
+        margin-top: 20%;
+        width: 100%;
   }
   .contador h5 {
     font-size: 20px;
 }
 .contador h6 {
-  font-size: 20px;
+  font-size: 8px;
 }
 .contador p {
   font-size: 20px;
@@ -1239,9 +1242,11 @@ input:required {
 
 /* :: 10.0 About Area CSS */
 .about-us-countdown-area {
+  text-align: center;
   position: relative;
   z-index: 1;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+ }
   .about-us-countdown-area .about-content-text h6 {
     font-size: 14px;
     font-weight: 500;
@@ -1257,7 +1262,17 @@ input:required {
     color: #2c1c61;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 20px; }
+    margin-bottom: 50px; }
+    .about-us-countdown-area .about-content-text p {
+      color: #2c1c61;
+      background-image: url(./img/summit/cuadros.png);
+    width: 100%;
+    padding: 0 50px;
+    background-repeat: no-repeat;
+    width: 818px;
+    margin: auto;
+    height: 89px;
+   }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .about-us-countdown-area .about-content-text h3 {
         font-size: 32px; } }
@@ -1266,9 +1281,11 @@ input:required {
         font-size: 24px; } }
     @media only screen and (max-width: 767px) {
       .about-us-countdown-area .about-content-text h3 {
-        font-size: 22px; } }
-  .about-us-countdown-area .about-content-text p {
-    color: #2c1c61; }
+        font-size: 22px; }
+        .about-us-countdown-area .about-content-text p {
+        width: 100%;
+        margin-top:30px;
+        } }
 
 /* :: About Single Page CSS */
 .single-we-offer-content {
@@ -1448,7 +1465,14 @@ input:required {
 /* :: 12.0 Speaker Area CSS */
 .our-speaker-area {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  background-color: #ffffff;
+  /* border-top-color: #2c1c61; */
+  border: 3px dashed;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #2c1c61;
+  border-top: none; }
   .our-speaker-area .row {
     margin-left: -20px;
     margin-right: -20px; }
@@ -1463,7 +1487,11 @@ input:required {
         .our-speaker-area .row .col-12 {
           padding-left: 15px;
           padding-right: 15px; } }
-
+.bandera{
+  width: 20%;
+  margin-top: -85px;
+  margin-left: 80px;
+}
 .single-speaker-area {
   position: relative;
   z-index: 1;
@@ -1472,7 +1500,7 @@ input:required {
   border-radius: 10px; }
   .single-speaker-area .speaker-single-thumb {
     position: relative;
-    z-index: 1;
+    z-index: -1;
     border-radius: 10px; }
     .single-speaker-area .speaker-single-thumb img {
       -webkit-transition-duration: 1500ms;
@@ -1480,6 +1508,7 @@ input:required {
       transition-duration: 1500ms;
       border-radius: 10px;
       width: 100%; }
+
   .single-speaker-area .social-info {
     position: absolute;
     top: -180px;
@@ -1508,7 +1537,7 @@ input:required {
     .single-speaker-area .speaker-info h5 {
       font-size: 20px;
       font-weight: 500;
-      color: #ffffff;
+      color: #2c1c61;
       letter-spacing: 1px;
       margin-bottom: 10px; }
     .single-speaker-area .speaker-info p {
@@ -1523,12 +1552,12 @@ input:required {
 .breadcrumb-area {
   position: relative;
   z-index: 1;
-  height: 470px; }
+  height: 270px; }
   @media only screen and (max-width: 767px) {
     .breadcrumb-area {
       height: 300px; } }
   .breadcrumb-area .page-title {
-    color: #ffffff;
+    color: #2c1c61;
     font-size: 45px;
     text-transform: uppercase;
     font-weight: 700; }
@@ -1545,18 +1574,18 @@ input:required {
     background-color: transparent;
     margin-bottom: 0; }
     .breadcrumb-content .breadcrumb .breadcrumb-item {
-      color: #ffffff;
+      color: #2c1c61;
       font-weight: 400;
       font-size: 18px; }
       .breadcrumb-content .breadcrumb .breadcrumb-item a {
         font-size: 16px;
-        color: #ffffff;
+        color: #2c1c61;
         font-weight: 400; }
         .breadcrumb-content .breadcrumb .breadcrumb-item a:hover, .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
           color: #ff3e44; }
     .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
       content: '\f105';
-      color: #ffffff;
+      color: #2c1c61;
       font-family: "FontAwesome"; }
 
 .breadcrumb-area.blog {
