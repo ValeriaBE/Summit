@@ -1500,10 +1500,11 @@ input:required {
       .single-speaker-area .social-info a:last-child {
         margin-bottom: 0; }
   .single-speaker-area .speaker-info {
-    position: absolute;
+    /* position: absolute; */
     bottom: 25px;
     left: 25px;
-    z-index: 22; }
+    z-index: 22; 
+    margin-top: 20px;}
     .single-speaker-area .speaker-info h5 {
       font-size: 20px;
       font-weight: 500;
@@ -2253,7 +2254,7 @@ input:required {
 .single-client-content {
   position: relative;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #2c1c61;
   padding: 40px 50px;
   border-radius: 10px;
   margin: 5px; }
@@ -2471,7 +2472,7 @@ input:required {
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
-        padding: 0 0 30px 0; } }
+        padding: 0 0 10px 0; } }
     .single-schedule-area .schedule-time-place p {
       color: #2c1c61;
       margin-bottom: 0;
@@ -2624,10 +2625,43 @@ input:required {
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15); }
 
 /* :: 19.0 Sponsor Area CSS */
+
+
+.row-sponsor {
+  width: 80%;
+  margin: auto;
+  margin-top: 55px;
+}
+
+.row-sponsor h4 {
+  color: #9b9b9b;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.row-logos {
+  margin-top: 20px;
+  border-top: 2px solid #e53967;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row-logos img {
+  filter: grayscale(1);
+  transition: 0.5s;
+  width: 37%;
+}
+
+.row-logos img:hover {
+  filter: grayscale(0);
+  transition: 0.5s;
+}
 .our-sponsor-client-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #ffffff; }
 
 .our-sponsor-area {
   position: relative;
