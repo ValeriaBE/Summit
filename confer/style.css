@@ -1383,11 +1383,27 @@ input:required {
   margin-top: -40px;
   margin-bottom: 35px;
 }
-
+.slick-slide > .social-media{
+  display: none;
+}
+.slick-center > .social-media{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.slick-center > .social-media a{
+  color: gray;
+  margin-right: 20px;
+  margin-left:10px;
+}
+.slick-center >.social-media a:hover{
+  color: #ff3e44;
+}
 .slick-slide {
   opacity: .6;
   width:10px;
 }
+
 .slick-slide:not(.slick-center){
   width: 180px !important ;
   margin-right: 35px;
@@ -1399,6 +1415,7 @@ input:required {
   max-height: 20% !important;
   opacity: 1;
   width: 242px !important;
+  
 }
 
 .slick-slide .speaker-info{
