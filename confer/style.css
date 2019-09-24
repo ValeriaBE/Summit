@@ -113,6 +113,9 @@ ul {
     .w-10{
       width: 10%;
     }
+.line-through{
+  text-decoration: line-through;
+}
 .bg-gradient-overlay {
   position: relative;
   z-index: 1; }
@@ -1272,6 +1275,7 @@ input:required {
     width: 818px;
     margin: auto;
     height: 89px;
+    font-size: 20px;
    }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .about-us-countdown-area .about-content-text h3 {
