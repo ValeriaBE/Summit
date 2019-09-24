@@ -1463,12 +1463,55 @@ input:required {
               font-size: 12px; } }
 
 /* :: 12.0 Speaker Area CSS */
+/* .slick-center .slide-h3 {
+  color: #FFF;
+}
+
+.slider {
+  width: 600px;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+} */
+/* 
+.slide-h3 {
+  margin: 10% 0 10% 0;
+  padding: 40% 20%;
+  background: red;
+} */
+.bandera-index{
+  margin: auto;
+  width: 20%;
+  margin-top: -40px;
+  margin-bottom: 35px;
+}
+.slider div {
+  margin-right: 5px;
+}
+
+.slick-slide {
+  opacity: .6;
+  width:10px;
+}
+
+.slick-center {
+  display: block;
+  max-width: 10% !important;
+  max-height: 20% !important;
+  opacity: 1;
+}
+.slick-slide .speaker-info{
+  width:80%; 
+  margin: auto; 
+  text-align: center;
+  margin-top: 20px;
+}
 .our-speaker-area {
   position: relative;
   z-index: 1;
   background-color: #ffffff;
   /* border-top-color: #2c1c61; */
-  border: 3px dashed;
+  /* border: 3px dashed; */
   border-left: none;
   border-right: none;
   border-bottom-color: #2c1c61;
