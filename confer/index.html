@@ -62,8 +62,25 @@
               </ul>
 
               <!-- Get Tickets Button -->
-              <a href="#entradas" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Comprar Entradas <i
+              <a mp-mode="dftl"
+              href="https://www.mercadopago.com/mpe/checkout/start?pref_id=459467811-acefd2b0-1c3c-4a71-9c86-5e6932d1e188"
+              name="MP-payButton" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Comprar Entradas <i
                   class="zmdi zmdi-long-arrow-right"></i></a>
+                  <script type="text/javascript">
+                    (function () {
+                      function $MPC_load() {
+                        window.$MPC_loaded !== true && (function () {
+                          var s = document.createElement("script");
+                          s.type = "text/javascript";
+                          s.async = true;
+                          s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+                          var x = document.getElementsByTagName('script')[0];
+                          x.parentNode.insertBefore(s, x); window.$MPC_loaded = true;
+                        })();
+                      }
+                      window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+                    })();
+                  </script>
             </div>
             <!-- Nav End -->
           </div>
@@ -158,7 +175,7 @@
             </div>
         </div>
   <div class="responsive mb-5" style="width:80%; margin: auto;">
-    <div>
+    <div  >
         <img class="speaker" src="./img/summit/spekers/Diego perez.png" alt="">
         <img src="./img/summit/banderas/Recurso 40@2x.png" alt="" class="bandera-index">
         <div class="speaker-info"  >
@@ -166,7 +183,7 @@
           <p>Regional Lean Agile Transformation Lead en Scotiabank</p>
         </div>
     </div>
-    <div>
+    <div  >
       <img src="./img/summit/spekers/carla-oliveiri.png"  alt="">
       <img src="./img/summit/banderas/Recurso 8.png" alt="" class="bandera-index">
       <div class="speaker-info"   >
@@ -174,7 +191,7 @@
         <p>Rectora & CEO en UCAL</p>
       </div>
     </div>
-    <div>
+    <div  >
       <img src="./img/summit/spekers/johnny-ordo.png"  alt="">
       <img src="./img/summit/banderas/Recurso 38@2x.png" alt="" class="bandera-index">
       <div class="speaker-info"   >
@@ -182,7 +199,7 @@
         <p>Agility Transition Lead & Advisor for Telefónica en Everis</p>
       </div>
     </div>
-    <div>
+    <div  >
       <img src="./img/summit/spekers/Sergio-Nouvel.png"  alt="">
       <img src="./img/summit/banderas/CHILE@2x.png" alt="" class="bandera-index">
       <div class="speaker-info"   >
@@ -190,16 +207,16 @@
         <p>Co-Founder & CEO en getonboard</p>
       </div>
     </div>
-    <div>
+    <div  >
       <img src="./img/summit/spekers/Olivier-Gesbert.png" alt="">
       <img src="./img/summit/banderas/Recurso 37@2x.png" alt="" class="bandera-index">
       <div class="speaker-info"   >
         <h5 style="color: #2c1c61">Olivier Gesbert</h5>
-        <p>CEO & Coach PCC en Presst</p>
+        <p>CEO & Coach PCC en Pressto</p>
       </div>
     </div>
 
-    <div>
+    <div  >
       <img src="./img/summit/spekers/Alfredo fuentes.png"  alt="">
       <img src="./img/summit/banderas/MEXICO@2x.png" alt="" class="bandera-index">
       <div class="speaker-info"   >
@@ -359,7 +376,7 @@
                   <!-- More Schedule Btn -->
                   <div class="col-12">
                     <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
-                      <a href="#" class="btn confer-gb-btn">Descargar agenda (Pdf)</a>
+                      <a href="#" class="btn confer-btn-white">Descargar agenda (Pdf)</a>
                     </div>
                   </div>
                 </div>
@@ -450,7 +467,7 @@
                   <!-- More Schedule Btn -->
                   <div class="col-12">
                     <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
-                      <a href="#" class="btn confer-gb-btn">Descargar agenda (Pdf)</a>
+                      <a href="#" class="btn confer-btn-white">Descargar agenda (Pdf)</a>
                     </div>
                   </div>
                 </div>
@@ -537,8 +554,7 @@
         <!-- Heading -->
         <div class="col-12">
           <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
-            <p>Escoge una entrada</p>
-            <h4>Precios</h4>
+            <h4>Entradas</h4>
           </div>
         </div>
       </div>

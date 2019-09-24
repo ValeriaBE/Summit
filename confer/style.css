@@ -1463,45 +1463,33 @@ input:required {
               font-size: 12px; } }
 
 /* :: 12.0 Speaker Area CSS */
-/* .slick-center .slide-h3 {
-  color: #FFF;
-}
 
-.slider {
-  width: 600px;
-  height: 150px;
-  margin: 20px auto;
-  text-align: center;
-} */
-/* 
-.slide-h3 {
-  margin: 10% 0 10% 0;
-  padding: 40% 20%;
-  background: red;
-} */
 .bandera-index{
   margin: auto;
   width: 20%;
   margin-top: -40px;
   margin-bottom: 35px;
 }
-.slider div {
-  margin-right: 5px;
-}
 
 .slick-slide {
   opacity: .6;
   width:10px;
 }
-
+.slick-slide:not(.slick-center){
+  width: 180px !important ;
+  margin-right: 35px;
+  margin-left: 40px;
+}
 .slick-center {
   display: block;
   max-width: 10% !important;
   max-height: 20% !important;
   opacity: 1;
+  width: 242px !important;
 }
+
 .slick-slide .speaker-info{
-  width:80%; 
+  width:100%; 
   margin: auto; 
   text-align: center;
   margin-top: 20px;
@@ -1510,8 +1498,6 @@ input:required {
   position: relative;
   z-index: 1;
   background-color: #ffffff;
-  /* border-top-color: #2c1c61; */
-  /* border: 3px dashed; */
   border-left: none;
   border-right: none;
   border-bottom-color: #2c1c61;
@@ -1531,9 +1517,13 @@ input:required {
           padding-left: 15px;
           padding-right: 15px; } }
 .bandera{
-  width: 20%;
-  margin-top: -85px;
-  margin-left: 80px;
+  width: 50px;
+}
+.bandera-box{
+  display: flex;
+  justify-content: center;
+  margin-top: -65px;
+  margin-bottom: 60px;
 }
 .single-speaker-area {
   position: relative;
@@ -1576,7 +1566,8 @@ input:required {
     bottom: 25px;
     left: 25px;
     z-index: 22; 
-    margin-top: 20px;}
+    margin-top: 20px;
+  text-align: center}
     .single-speaker-area .speaker-info h5 {
       font-size: 20px;
       font-weight: 500;
