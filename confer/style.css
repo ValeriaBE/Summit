@@ -471,12 +471,12 @@ input:required {
 
 #scrollUp {
   position: fixed;
-  left: 40px;
+  right: 120px;
   font-size: 20px;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  bottom: 40px;
+  bottom: 30px;
   background-color: #ff3e44;
   color: #ffffff;
   text-align: center;
