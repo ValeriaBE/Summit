@@ -140,7 +140,7 @@
         <!-- About Content -->
         <div class="col-12 col-md-12">
           <div class="about-content-text mb-80">
-            <h3 class="wow fadeInUp" data-wow-delay="300ms">Nosotros</h3>
+            <h3 class="wow fadeInUp" data-wow-delay="300ms">EL EVENTO</h3>
             <p class="wow fadeInUp" data-wow-delay="300ms">Transformamos tu mindset para que lideres organizaciones
               digitales</p>
           </div>
@@ -724,7 +724,32 @@
     </div>
   </footer>
   <!-- Footer Area End -->
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v4.0'
+      });
+    };
 
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="146479642440094"
+theme_color="#ff3e44"
+logged_in_greeting="Hola! Cómo te podemos ayudar?"
+logged_out_greeting="Hola! Cómo te podemos ayudar?">
+  </div>
   <!-- **** All JS Files ***** -->
   <!-- jQuery 2.2.4 -->
   <script src="js/jquery.min.js"></script>
