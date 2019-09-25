@@ -471,7 +471,7 @@ input:required {
 
 #scrollUp {
   position: fixed;
-  right: 40px;
+  left: 40px;
   font-size: 20px;
   line-height: 40px;
   width: 40px;
