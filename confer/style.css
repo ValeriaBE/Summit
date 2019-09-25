@@ -1107,6 +1107,11 @@ input:required {
   .main-footer-area .single-footer-widget p {
     color: #9293bc;
     font-size: 14px; }
+    .main-footer-area .single-footer-widget a {
+      color: #9293bc;
+      font-size: 14px; }
+      .main-footer-area .single-footer-widget a i{
+        margin-right: 5px; }
     .main-footer-area .single-footer-widget p i {
       margin-right: 5px; }
   .main-footer-area .single-footer-widget .footer-logo {
