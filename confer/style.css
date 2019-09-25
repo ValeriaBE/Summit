@@ -869,7 +869,7 @@ input:required {
       top: 8px;
       border-radius: 4px;
       -webkit-animation: iconScroll linear 1200ms infinite;
-      animation: iconScroll linear 1200ms infinite; }
+      animation: iconScroll linear 2300ms infinite; }
 
 @-webkit-keyframes iconScroll {
   0% {
@@ -1584,13 +1584,21 @@ input:required {
       line-height: 1; }
   .single-speaker-area:hover .social-info, .single-speaker-area:focus .social-info {
     top: 0; }
-
+.purple{
+  color: #2c1c61 !important;
+}
 /* :: 13.0 Breadcrumb CSS */
 .breadcrumb-area {
   position: relative;
   z-index: 1;
   height: 270px; }
+  .speaker-slide{
+    height: 427px !important;
+  }
   @media only screen and (max-width: 767px) {
+    .speaker-slide{
+      height: 287px !important;
+    }
     .breadcrumb-area {
       height: 300px; } 
   .breadcrumb-area .page-title {
@@ -1991,3 +1999,4 @@ margin:10px }}
   }
 
 /*# sourceMappingURL=style.css.map */
+
