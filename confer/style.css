@@ -96,7 +96,9 @@ ul {
     background-image: -webkit-linear-gradient(120deg, #ff3e44 0%, #2c1c61 100%);
     background-image: -ms-linear-gradient(120deg, #ff3e44 0%, #2c1c61 100%);
     opacity: 0.9; }
-
+.h-90{
+  height: 90px;
+}
 .bg-gradient-overlay-2 {
   position: relative;
   z-index: 1; }
