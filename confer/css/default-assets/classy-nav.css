@@ -349,7 +349,7 @@
   background-color: #ffffff;
   position: fixed;
   top: 0;
-  left: -340px;
+  right: -340px;
   z-index: 9999;
   width: 320px;
   height: 100%;
@@ -361,7 +361,7 @@
   overflow-x: hidden;
   overflow-y: scroll; }
   .breakpoint-on .classy-navbar .classy-menu.menu-on {
-    left: 0; }
+    right: 0; }
 .breakpoint-on .classynav ul li {
   display: block;
   position: relative;
