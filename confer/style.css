@@ -680,7 +680,7 @@ input:required {
 
 /* :: 7.0 Header Area CSS */
 .mobile-section{
-  margin-top:18%
+  margin-top:12%
 }
 .summit-image{
   width: 36% !important; 
@@ -712,7 +712,7 @@ input:required {
         width: 70% !important;
       }
       .mobile-section{
-        margin-top:35%
+        margin-top:18%
       }
       .summit-image{
         width: 80% !important; 
