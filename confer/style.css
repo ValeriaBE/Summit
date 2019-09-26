@@ -489,8 +489,8 @@ input:required {
   z-index: 15962536; }
   @media only screen and (max-width: 767px) {
     #scrollUp {
-      right: 80px;
-      bottom: 20px; } }
+      right: 90px;
+      bottom: 30px; } }
   #scrollUp:focus, #scrollUp:hover {
     background-color: #000000;
     color: #ffffff; }
@@ -680,7 +680,7 @@ input:required {
 
 /* :: 7.0 Header Area CSS */
 .mobile-section{
-  margin-top:12%
+  margin-top:18%
 }
 .summit-image{
   width: 36% !important; 
