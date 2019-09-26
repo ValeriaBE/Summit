@@ -2,7 +2,7 @@
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/default-assets/classy-nav.css);
-@import url(css/owl.carousel.min.css);
+/* @import url(css/owl.carousel.min.css); */
 @import url(css/magnific-popup.css);
 @import url(css/font-awesome.min.css);
 @import url(css/material-design-iconic-font.min.css);
@@ -844,6 +844,11 @@ input:required {
 
 
 /* :: 8.0 Hero Area CSS */
+.slider-video{
+  transform: none !important;
+  transition: none !important;
+  width: 0 !important;
+}
 .welcome-area {
   position: relative;
   z-index: 1; }
@@ -900,12 +905,16 @@ input:required {
 .welcome-slides {
   position: relative;
   z-index: 1;
-  overflow: hidden; }
-  .welcome-slides .owl-prev,
+  display: block;
+  overflow: hidden; 
+    transition: none; 
+    transform: none;
+  }
+  /* .welcome-slides .owl-prev,
   .welcome-slides .owl-next {
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
+    -webkit-transition-duration: none;
+    -o-transition-duration: none;
+    transition-duration: none;
     border-radius: 50%;
     position: absolute;
     width: 46px;
@@ -918,16 +927,16 @@ input:required {
     line-height: 44px;
     border: 2px solid #9293bc;
     color: #9293bc;
-    font-size: 34px; }
-    .welcome-slides .owl-prev:hover, .welcome-slides .owl-prev:focus,
+    font-size: 34px; } */
+    /* .welcome-slides .owl-prev:hover, .welcome-slides .owl-prev:focus,
     .welcome-slides .owl-next:hover,
     .welcome-slides .owl-next:focus {
       background-color: rgba(255, 255, 255, 0.5);
-      color: #000000; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      color: #000000; } */
+    /* @media only screen and (min-width: 768px) and (max-width: 991px) {
       .welcome-slides .owl-prev,
       .welcome-slides .owl-next {
-        left: 30px; } }
+        left: 30px; } } */
     @media only screen and (max-width: 767px) {
       .contador {
         padding: 10px 20px 10px 20px;
@@ -948,23 +957,23 @@ input:required {
 }
 .contador p {
   font-size: 20px;
-}
-      .welcome-slides .owl-prev,
+}}
+      /* .welcome-slides .owl-prev,
       .welcome-slides .owl-next {
         width: 40px;
         left: 15px;
         height: 40px;
         font-size: 18px;
-        line-height: 38px; } }
-  .welcome-slides .owl-next {
+        line-height: 38px; } } */
+  /* .welcome-slides .owl-next {
     left: auto;
-    right: 70px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    right: 70px; } */
+    /* @media only screen and (min-width: 768px) and (max-width: 991px) {
       .welcome-slides .owl-next {
         right: 30px; } }
     @media only screen and (max-width: 767px) {
       .welcome-slides .owl-next {
-        right: 15px; } }
+        right: 15px; } } */
 
 .single-welcome-slide {
   position: relative;
