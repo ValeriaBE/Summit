@@ -322,6 +322,9 @@ input:required {
   padding-bottom: 0; }
 
 /* :: 3.0 Preloader Area CSS */
+.h-65{
+  height: 65px;
+}
 #preloader {
   position: fixed;
   width: 100%;
@@ -699,6 +702,7 @@ input:required {
   margin-top: 6px;
 }
 .classy-nav-container {
+  height: 65px;
   background-color: transparent;
   padding: 0; }
   .classy-nav-container .classy-navbar {
@@ -785,6 +789,7 @@ input:required {
 
 .header-area {
   position: fixed;
+  height: 65px;
   z-index: 999;
   width: 100%;
   -webkit-transition-duration: 500ms;
@@ -793,6 +798,7 @@ input:required {
   background-color: rgb(14, 3, 45, 0.8); }
   .header-area.sticky {
     background-color: rgb(14, 3, 45);
+    height: 65px;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
