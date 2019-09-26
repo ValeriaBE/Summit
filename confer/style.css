@@ -323,7 +323,7 @@ input:required {
 
 /* :: 3.0 Preloader Area CSS */
 .h-65{
-  height: 65px;
+  height: 65px !important;
 }
 #preloader {
   position: fixed;
