@@ -281,6 +281,10 @@ input:required {
 .pt-50 {
   padding-top: 50px !important; }
 
+.section-padding-40-0 {
+  padding-top: 40px;
+  padding-bottom: 0px; }
+
 .section-padding-80 {
   padding-top: 80px;
   padding-bottom: 80px; }
