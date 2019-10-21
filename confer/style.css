@@ -1680,9 +1680,37 @@ height: 389px;}
   .speaker-slide{
     height: 427px !important;
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 375px) {
     .single-speaker-area {
-    height: 489px;}
+    height: 429px;}
+    .single-speaker-area .social-info {
+      top: -10px;
+      padding: 12px 10px 5px 10px;
+      -webkit-transition-duration: 0ms;
+      -o-transition-duration: 0ms;
+      transition-duration: 0ms; }
+      .speaker-slide{
+        height: 327px !important;
+      }
+      .breadcrumb-area {
+        height: 280px; } 
+    .breadcrumb-area .page-title {
+      color: #2c1c61;
+      font-size: 45px;
+      text-transform: uppercase;
+      font-weight: 700;}
+   .speaker-info h5 {
+        font-size: 12px; }
+   .speaker-info p {
+  font-size: 12px;
+  margin:10px }
+  .single-speaker-area2 {
+    height: 390px;}}
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    .single-speaker-area {
+    height: 499px;}
+    .single-speaker-area2 {
+      height: 487px;}
     .single-speaker-area .social-info {
       top: -10px;
       padding: 12px 10px 5px 10px;
