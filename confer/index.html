@@ -493,60 +493,44 @@
         </div>
       </div>
 
-      <div class="row">
-        <!-- Single Ticket Pricing Table -->
-        <div class="col-12 col-lg-3">
-          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-            <h6 class="ticket-plan">06 de Ago - 8pm</h6>
-            <h3>Entrada BETA </h3>
-            <h2 class="ticket-price line-through"><span>s/.</span>150</h2>
-            <button class="btn w-100 mb-30" disabled>Agotado</button>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3">
-          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-            <h6 class="ticket-plan">16 de Ago - 4pm</h6>
-            <h3>Entrada MVP </h3>
-            <h2 class="ticket-price line-through"><span>s/.</span>250</h2>
-            <button class="btn w-100 mb-30" disabled>Agotado</button>
-          </div>
-        </div>
+      <div class="row justify-content-center">
+                <!-- Single Ticket Pricing Table -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-ticket-pricing-table active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                      <!-- <h6 class="ticket-plan">16 de Sep - 1pm</h6> -->
+                      <p class="ticket-plan">Hasta 31 de Octubre</p>
+                      <h3>Entrada MATURE </h3>
+                      <h2 class="ticket-price"><span>s/.</span>600</h2>
+                      <a mp-mode="dftl"
+                        href="https://www.mercadopago.com/mpe/checkout/start?pref_id=459467811-acefd2b0-1c3c-4a71-9c86-5e6932d1e188"
+                        name="MP-payButton" target="_blank" class="btn confer-btn w-100 mb-30">Comprar <i
+                          class="zmdi zmdi-long-arrow-right"></i></a>
+                      <script type="text/javascript">
+                        (function () {
+                          function $MPC_load() {
+                            window.$MPC_loaded !== true && (function () {
+                              var s = document.createElement("script");
+                              s.type = "text/javascript";
+                              s.async = true;
+                              s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+                              var x = document.getElementsByTagName('script')[0];
+                              x.parentNode.insertBefore(s, x); window.$MPC_loaded = true;
+                            })();
+                          }
+                          window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+                        })();
+                      </script>
+                    </div>
+                  </div>
 
         <!-- Single Ticket Pricing Table -->
         <div class="col-12 col-md-6 col-lg-3">
           <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-            <h6 class="ticket-plan">02 de Sep - 8pm</h6>
-            <h3>Entrada YOUNG</h3>
-            <h2 class="ticket-price line-through"><span>s/.</span>400</h2>
-            <button class="btn w-100 mb-30" disabled>Agotado</button>
-          </div>
-        </div>
-
-        <!-- Single Ticket Pricing Table -->
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="single-ticket-pricing-table active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-            <h6 class="ticket-plan">16 de Sep - 1pm</h6>
-            <h3>Entrada MATURE </h3>
-            <h2 class="ticket-price"><span>s/.</span>600</h2>
-            <a mp-mode="dftl"
-              href="https://www.mercadopago.com/mpe/checkout/start?pref_id=459467811-acefd2b0-1c3c-4a71-9c86-5e6932d1e188"
-              name="MP-payButton" target="_blank" class="btn confer-btn w-100 mb-30">Comprar <i
-                class="zmdi zmdi-long-arrow-right"></i></a>
-            <script type="text/javascript">
-              (function () {
-                function $MPC_load() {
-                  window.$MPC_loaded !== true && (function () {
-                    var s = document.createElement("script");
-                    s.type = "text/javascript";
-                    s.async = true;
-                    s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
-                    var x = document.getElementsByTagName('script')[0];
-                    x.parentNode.insertBefore(s, x); window.$MPC_loaded = true;
-                  })();
-                }
-                window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
-              })();
-            </script>
+            <!-- <h6 class="ticket-plan">02 de Sep - 8pm</h6> -->
+            <p class="ticket-plan">Del 01 al 28 Noviembre</p>
+            <h3>ENTRADA GENERAL</h3>
+            <h2 class="ticket-price"><span>s/.</span>750</h2>
+            <button class="btn w-100 mb-30" disabled></button>
           </div>
         </div>
       </div>
